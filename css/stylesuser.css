@@ -1,0 +1,19 @@
+.user-section{
+  background-color: #a40a3c;
+}
+.cards-user{
+    padding: 5rem;
+}
+
+.feed-user{
+    background-color: #defcf9;
+}
+.feed-user1{
+    padding:3rem;
+}
+.social-icon-user{
+    font-size: 5em;
+   color:  #07689f;
+    /* padding: 5rem; */
+    text-align: center;
+  }

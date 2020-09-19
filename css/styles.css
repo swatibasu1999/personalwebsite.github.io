@@ -1,0 +1,241 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+.intro-image{
+  font-size: 5em;
+  color: greenyellow;
+  /* padding: 5rem; */
+}
+
+.grad{
+  font-size: 5em;
+  color: greenyellow;
+   padding-bottom: 5%;
+}
+
+.container-fluid{
+    margin-right: 0rem; 
+     margin-left: 0rem;
+  }
+
+  .welcome{
+    margin-left: 10%;
+    font-family: cursive;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+}
+
+  .colored-section {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: black;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+  }
+
+  /* .navbar {
+     padding-top: 5em; 
+  }*/
+
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+
+.heading{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    /* padding-bottom: 7%; */
+}
+
+.post{
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.self{
+  background-color: #ebfffa;
+  font-family: "Montserrat";
+}
+
+.self-intro{
+  text-align: center;
+  font-family: "Montserrat-black";
+  line-height: 1.5;
+  font-size: 1.4rem;
+  padding: 7%;
+}
+
+.remote-image {
+  width: 80%;
+  margin-left: 0;
+   padding: 7%; 
+}
+
+.self-image {
+  width: 80%;
+  margin-left: 2em;
+   padding: 7%; 
+}
+
+.achievements{
+  background-color: #fc9d9d; 
+}
+
+.test{
+  width: 50%;
+  position: relative;
+  left: 24.5%;
+
+  padding: 2% 4% 4% 4%;
+ 
+}
+
+.next-section{
+  background-color: #ebfffa;
+  padding: 7%;
+  font-family: "Montserrat";
+}
+
+.c-color{
+  background-color: #ff4c68;
+}
+
+.bcolor{
+  background-color: yellow;
+}
+
+.social-icon{
+  font-size: 5em;
+ color:  #ffcccc;
+  /* padding: 5rem; */
+  text-align: center;
+}
+
+.social-icon:hover{
+   color: #74f9ff;
+   text-decoration: none;
+}
+
+/* .footer{
+  margin: auto;
+} */
+
+.feed{
+  padding-top: 3em;
+  background-color: #a40a3c;
+font-family: cursive;
+color: #fff;
+}
+
+.feedback{
+  text-align: center;
+}
+
+.template{
+  text-align: center;
+  padding: 4rem;
+  font-family: "Montserrat";
+}
+
+.contacts{
+  font-size: 3em;
+  text-align: center;
+
+}
+
+.testimonial-text{
+  padding-top: 1em;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.temp{
+  background-color: #a40a3c;
+  color: #fff;
+}
+
+.last-section{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #cbf1f5;
+}
+
+.media{
+  color: #0f3460;
+}
+
+.media:hover{
+  color: #700961;
+  text-decoration: none;
+}
+.line{
+  text-align: center;
+}
+
+.image{
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .retina .crop img {
+    transform: scale(.5, .5);
+  }
+  
+  .area-heading{
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  }
+
+  .card-title{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card-1{
+    background-color: #e3fdfd;
+  }
+
+  .card-2{
+    background-color: #ff2e63;
+    color: #fff;
+  }
+
+.page-2{
+  background-color: #9df3c4;
+}
+
+.hobbies {
+  position: relative;
+  width: 50%;
+}
+
+#myself{
+  background-color: #ffdfdf;
+  padding: 1rem;
+}

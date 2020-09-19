@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>User Input Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles4.css">
+        <link rel="icon" href="form-page.png">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <div class="content">
+        <div class="container">
+        <div class="head">
+          <h1 heading="">Fill your information to create your own template</h1>
+      </div>
+        <form method="POST" action="upload.php" enctype="multipart/form-data">
+            <div class="form-group">
+              <label>Enter your name</label>
+              <input type="text" class="form-control" name="username" required>
+            </div>
+            <div class="form-group">
+              <label>Enter your UG college name</label>
+              <input type="text" class="form-control" name="ug" required>
+            </div>
+            <div class="form-group">
+              <label>Enter your UG course</label>
+              <input type="text" class="form-control" name="course" required>
+            </div>
+            <div class="form-group">
+                <label>Enter your PG college name</label>
+                <input type="text" class="form-control" name="pg" required>
+              </div>
+              <div class="form-group">
+                <label>Your photograph</label>
+                <input type="file" class="form-control-file" name="photo" id="exampleFormControlFile1" required>
+              </div>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label>Interest 1:</label>
+                    <input type="text" class="form-control" name="interest1" required>
+                  </div>
+                  <div class="col">
+                    <label>Interest 2:</label>
+                    <input type="text" class="form-control" name="interest2" required>
+                  </div>
+                  <div class="col">
+                    <label>Interest 3:</label>
+                    <input type="text" class="form-control" name="interest3" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label>Hobby 1:</label>
+                    <input type="text" class="form-control" name="hobby1" required>
+                  </div>
+                  <div class="col">
+                    <label>Hobby 2:</label>
+                    <input type="text" class="form-control" name="hobby2" required>
+                  </div>
+                  <div class="col">
+                    <label>Hobby 3:</label>
+                    <input type="text" class="form-control" name="hobby3" required> 
+                  </div>
+                 </div>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label>Skill 1:</label>
+                    <input type="text" class="form-control" name="skill1" required>
+                  </div>
+                  <div class="col">
+                    <label>Skill 2:</label>
+                    <input type="text" class="form-control" name="skill2" required>
+                  </div>
+                  <div class="col">
+                    <label>Skill 3:</label>
+                    <input type="text" class="form-control" name="skill3" required>
+                  </div>
+                  </div>
+              <button type="submit" class="btn btn-danger button1" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+        <script src="" async defer></script>
+    </body>
+</html>

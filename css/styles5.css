@@ -1,0 +1,16 @@
+.body{
+    background-color: #d9ecf2;
+}
+
+.heading{
+    text-align: center;
+    padding: 3rem;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.container{
+    align-content: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
